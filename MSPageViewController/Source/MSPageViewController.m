@@ -110,9 +110,7 @@
 }
 
 - (NSInteger)presentationCountForPageViewController:(MSPageViewController *)pageViewController {
-    const BOOL shouldShowPageControl = (pageViewController.pageCount > 1);
-    
-    return (shouldShowPageControl) ? pageViewController.pageCount : 0;
+    return 0;
 }
 
 - (NSInteger)presentationIndexForPageViewController:(UIPageViewController *)pageViewController {
